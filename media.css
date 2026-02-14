@@ -4,8 +4,6 @@
         gap: 100px;
     }
 
-
-
     nav ul {
         position: absolute;
         top: 70px;
@@ -33,13 +31,11 @@
 
     .icons {
         display: none;
-
     }
 
     .icons a {
         font-size: 20px;
     }
-
 
     .hero-container {
         flex-direction: column;
@@ -54,7 +50,6 @@
         align-content: center;
         justify-content: center;
     }
-
 
     .info-outer {
         display: flex;
@@ -107,7 +102,6 @@
         padding: 3vw;
     }
 
-
     #project {
         margin-top: 40px;
     }
@@ -154,12 +148,9 @@
     .footers {
         font-size: 13px;
     }
-
-
-
 }
 
-@media only screen and (min-width:769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     nav {
         height: 50px;
     }
@@ -178,7 +169,7 @@
         width: 50%;
         left: 0;
         bottom: -2px;
-        transition: .5s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
 
     .icons a {
@@ -257,13 +248,13 @@
         width: 300px;
         border-radius: 10px;
         border: 2px solid #00c6ff;
-        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        transition:
+            transform 0.4s ease,
+            box-shadow 0.4s ease;
     }
-
 
     .contact-form label {
         top: 12px;
         left: 70px;
     }
-
 }
