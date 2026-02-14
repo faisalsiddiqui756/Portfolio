@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    color: black;
+    color: darkgray;
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 2px;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 
 .container {
     width: 100%;
-    background-color: lightgrey;
+    background-color: #000000;
 }
 
 nav {
@@ -32,9 +32,9 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     height: 70px;
-    border-bottom: 2px solid #20f1fc;
+    border-bottom: 2px solid goldenrod;
     box-shadow: 0 0 15px #00f2ff50;
-    background-color: white;
+    background-color: #000000;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -69,7 +69,7 @@ nav ul li a::after {
     content: "";
     position: absolute;
     height: 3px;
-    background-color: #0b66f8;
+    background-color: goldenrod;
     width: 50%;
     left: 0;
     bottom: -8px;
@@ -84,7 +84,8 @@ nav ul li a:hover::after {
     display: none;
     font-size: 28px;
     cursor: pointer;
-    color: black;
+    background-color: black;
+    /* color: black; */
 }
 
 .icons {
@@ -168,12 +169,15 @@ nav ul li a:hover::after {
     font-size: 2.6rem;
     line-height: 50px;
     margin-bottom: 20px;
+    color: darkgray;
 }
 
 .info-outer p {
-    color: black;
+    color: white;
     margin-top: 20px;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .typing {
@@ -226,11 +230,13 @@ nav ul li a:hover::after {
     0%,
     50% {
         content: "Frontend Developer | UI Enthusiast";
+        color: goldenrod;
     }
 
     51%,
     100% {
         content: "ASP.NET Core Backend Developer";
+        color: goldenrod;
     }
 }
 
@@ -241,14 +247,14 @@ nav ul li a:hover::after {
 
 #about h1 {
     text-align: center;
-    color: #60a5fa;
+    color: goldenrod;
     font-size: 3rem;
 }
 
 #about hr {
     height: 5px;
     width: 70%;
-    background-color: rgba(96, 165, 250, 0.5);
+    background-color: goldenrod;
     margin: 0 auto;
     border-radius: 10px;
     border: none;
@@ -266,7 +272,7 @@ nav ul li a:hover::after {
 }
 
 .about-text span {
-    color: #f8910a;
+    color: goldenrod;
 }
 
 #about ul {
@@ -302,14 +308,14 @@ nav ul li a:hover::after {
 
 #skills h1 {
     text-align: center;
-    color: #60a5fa;
+    color: goldenrod;
     font-size: 3rem;
 }
 
 #skills hr {
     height: 5px;
     width: 70%;
-    background-color: rgba(96, 165, 250, 0.5);
+    background-color: goldenrod;
     margin: 0 auto;
     border-radius: 10px;
     border: none;
@@ -341,7 +347,7 @@ nav ul li a:hover::after {
 
 .skill-box:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 15px #00f2ff);
+    filter: drop-shadow(0 0 15px goldenrod);
 }
 
 #services {
@@ -350,14 +356,14 @@ nav ul li a:hover::after {
 
 #services h1 {
     text-align: center;
-    color: #60a5fa;
+    color: goldenrod;
     font-size: 3rem;
 }
 
 #services hr {
     height: 5px;
     width: 70%;
-    background-color: rgba(96, 165, 250, 0.5);
+    background-color: goldenrod;
     margin: 0 auto;
     border-radius: 10px;
     border: none;
@@ -388,18 +394,17 @@ nav ul li a:hover::after {
 
 /* .Services-box p {
     /* color: white; */
-/* } */ */
-
+/* } */
 .Services-box:hover {
     transform: translateY(8px);
-    background-color: grey;
-    border: 2px solid green;
+    /* background-color: grey; */
+    border: 2px solid goldenrod;
     box-shadow: 10px 10px 25px rgb(47, 48, 46);
 }
 
 .Services-box h2 {
     font-size: 20px;
-    color: #00f2ff;
+    color: goldenrod;
 }
 
 #project {
@@ -408,14 +413,14 @@ nav ul li a:hover::after {
 
 #project h1 {
     text-align: center;
-    color: #60a5fa;
+    color: goldenrod;
     font-size: 3rem;
 }
 
 #project hr {
     height: 5px;
     width: 70%;
-    background-color: rgba(96, 165, 250, 0.5);
+    background-color: goldenrod;
     margin: 0 auto;
     border-radius: 10px;
     border: none;
@@ -438,13 +443,13 @@ nav ul li a:hover::after {
     border-radius: 10px;
     border: 2px solid #00c6ff;
     transition:
-        transform 0.4s ease,
-        box-shadow 0.4s ease;
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
 }
 
 .image img:hover {
     transform: scale(1.03);
-    box-shadow: 0 0 25px #00f2ff80;
+    box-shadow: 0 0 25px goldenrod;
 }
 
 #contact {
@@ -453,14 +458,14 @@ nav ul li a:hover::after {
 
 #contact h1 {
     text-align: center;
-    color: #60a5fa;
+    color: goldenrod;
     font-size: 3rem;
 }
 
 #contact hr {
     height: 5px;
     width: 70%;
-    background-color: rgba(96, 165, 250, 0.5);
+    background-color: goldenrod;
     margin: 0 auto;
     border-radius: 10px;
     border: none;
@@ -485,7 +490,7 @@ nav ul li a:hover::after {
 
 .talksme h2 {
     font-size: 40px;
-    color: #00f2ff;
+    color: goldenrod;
 }
 
 .talksme p {
@@ -542,13 +547,13 @@ form {
     padding-left: 10px;
     color: white;
     height: 38px;
-    /* background: rgb(8, 8, 97); */
+    background: rgb(5, 5, 5);
     margin-top: 40px;
     background-position: center;
 }
 
 .contact-form label {
-    color: black;
+    color: white;
     position: absolute;
     top: 12px;
     left: 80px;
@@ -562,13 +567,13 @@ form {
     margin-top: 40px;
     border-radius: 10px;
     width: 70%;
-    /* background: rgb(8, 8, 97); */
+    background: rgb(5, 5, 5);
     height: 150px;
     background-position: center;
 }
 
 .btn button {
-    background: linear-gradient(90deg, #00f2ff, #0072ff);
+    background: linear-gradient(90deg, rgb(245, 216, 142), goldenrod);
     color: #001f3f;
     border: none;
     padding: 12px 30px;
@@ -581,7 +586,7 @@ form {
 
 .btn button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 0 25px #00f2ff80;
+    box-shadow: 0 0 25px gold;
 }
 
 footer {
