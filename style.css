@@ -23,6 +23,7 @@ body {
 
 .container {
     width: 100%;
+    background-color: lightgrey;
 }
 
 nav {
@@ -385,9 +386,9 @@ nav ul li a:hover::after {
     transition: all 0.6s ease;
 }
 
-.Services-box p {
+/* .Services-box p {
     /* color: white; */
-}
+/* } */ */
 
 .Services-box:hover {
     transform: translateY(8px);
