@@ -3,6 +3,50 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport"
+                content="width=device-width, initial-scale=1.0" />
+
+            <!-- Primary SEO -->
+            <title>Faishal Siddiqui | Full Stack .NET Developer | ASP.NET Core |
+                C# | SQL Server</title>
+
+            <meta name="description"
+                content="Faishal Siddiqui is a Full Stack .NET Developer specializing in ASP.NET Core, C#, Web API, SQL Server, and modern frontend technologies like HTML, CSS, JavaScript, Bootstrap, and Tailwind. Building secure, scalable, and performance-driven web applications." />
+
+            <meta name="keywords"
+                content="Faishal Siddiqui, ASP.NET Developer, Full Stack Developer, C# Developer, ASP.NET Core, Web API, SQL Server, .NET Developer India, Backend Developer, Frontend Developer, MSSQL" />
+
+            <meta name="author" content="Faishal Siddiqui" />
+            <meta name="robots" content="index, follow" />
+
+            <!-- Open Graph (Facebook / LinkedIn / WhatsApp Preview) -->
+            <meta property="og:title"
+                content="Faishal Siddiqui | Full Stack .NET Developer" />
+            <meta property="og:description"
+                content="Full Stack .NET Developer skilled in ASP.NET Core, C#, Web API, SQL Server, and modern frontend technologies." />
+            <meta property="og:image"
+                content="https://faishalsiddiqui.vercel.app/Images/fs-2.jpeg" />
+            <meta property="og:url" content="https://yourdomain.com" />
+            <meta property="og:type" content="website" />
+
+            <!-- Twitter Card -->
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title"
+                content="Faishal Siddiqui | ASP.NET Core Developer" />
+            <meta name="twitter:description"
+                content="Professional Full Stack .NET Developer building secure and scalable applications." />
+            <meta name="twitter:image"
+                content="https://faishalsiddiqui.vercel.app/Images/fs-2.jpeg" />
+
+            <!-- Favicon -->
+            <link rel="icon" href="Images/LOGO.png" />
+
+            <!-- Canonical URL -->
+            <link rel="canonical" href="https://faishalsiddiqui.vercel.app" />
+        </head>
         <title>
             Home - Faishal Siddiqui || Full Stack Developer || Asp.Net
             Developer||
@@ -11,10 +55,13 @@
         <link rel="icon" href="Images/LOGO.png" />
 
         <!-- External CSS -->
-        <link rel="stylesheet" href="style.css" />
+        <link rel="preload" href="style.css" as="style"
+            onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="style.css"></noscript>
 
         <!-- Media Query -->
-        <link rel="stylesheet" href="media.css" />
+        <link rel="preload" href="media.css" as="style"
+            onload="this.onload=null;this.rel='stylesheet'">
 
         <!-- font family -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,12 +79,17 @@
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+        <!-- AOS CSS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     </head>
 
     <body>
         <div class="container">
             <!-- Header Start -->
             <nav class="navbar">
+
                 <a href="index.html">
                     <img
                         src="/Images/logo-1.png"
@@ -71,358 +123,400 @@
 
             <!-- Hero Section Start -->
             <section id="Home">
-                <div class="hero-container">
-                    <div class="profile-outer">
-                        <div class="profile">
-                            <img src="/Images/fs-2.jpeg"
-                                alt="faishal_siddiqui_photo" />
+                <section class="hero" data-aos="fade-up">
+
+                    <div class="hero-container">
+                        <div class="profile-outer">
+                            <div class="profile">
+                                <img src="/Images/fs-2.jpeg"
+                                    loading="lazy"
+                                    decoding="async"
+                                    alt="Faishal Siddiqui">
+                            </div>
+                        </div>
+                        <div class="info-outer">
+                            <h1>
+                                Hi, I’m Faishal Siddiqui <br />
+                                Full Stack .NET Developer
+                            </h1>
+                            <div class="typing">
+                                <span></span>
+                            </div>
+                            <p>
+                                I am a passionate .NET Developer with strong
+                                hands-on experience
+                                in C#, ASP.NET Core, Web API, and SQL Server. I
+                                build secure,
+                                scalable, and performance-driven web
+                                applications
+                                with clean
+                                architecture principles. On the frontend, I work
+                                with HTML, CSS,
+                                JavaScript, Bootstrap, and Tailwind to create
+                                responsive and
+                                user-friendly interfaces. I continuously focus
+                                on
+                                improving my
+                                problem-solving skills and delivering impactful
+                                digital solutions.
+                            </p>
                         </div>
                     </div>
-                    <div class="info-outer">
-                        <h1>
-                            Hi, I’m Faishal Siddiqui <br />
-                            Full Stack .NET Developer
-                        </h1>
-                        <div class="typing">
-                            <span></span>
-                        </div>
+                </section>
+                <!-- Hero Section End -->
+
+                <!-- about section start -->
+                <section id="about" data-aos="fade-right">
+
+                    <h1>About Me</h1>
+                    <hr />
+
+                    <div class="about-text">
                         <p>
-                            I am a passionate .NET Developer with strong
-                            hands-on experience
-                            in C#, ASP.NET Core, Web API, and SQL Server. I
-                            build secure,
-                            scalable, and performance-driven web applications
-                            with clean
-                            architecture principles. On the frontend, I work
-                            with HTML, CSS,
-                            JavaScript, Bootstrap, and Tailwind to create
-                            responsive and
-                            user-friendly interfaces. I continuously focus on
-                            improving my
-                            problem-solving skills and delivering impactful
-                            digital solutions.
+                            Hi, I’m <span>Faishal Siddiqui</span>, a passionate
+                            <span>Full Stack .NET Developer</span> with strong
+                            expertise in
+                            <span>C#</span> and <span>ASP.NET Core</span>. I
+                            specialize in
+                            building scalable, secure, and high-performance web
+                            applications
+                            using modern development practices. I focus on
+                            writing
+                            clean,
+                            maintainable code and following solid architecture
+                            principles to
+                            deliver production-ready solutions.
+                        </p>
+
+                        <p>
+                            On the backend, I work extensively with
+                            <span>ASP.NET Core Web API</span>, implementing
+                            secure
+                            authentication using <span>JWT (JSON Web
+                                Token)</span>
+                            and role-based authorization with
+                            <span>ASP.NET Identity</span>. I have hands-on
+                            experience with
+                            <span>Dependency Injection (DI)</span>,
+                            <span>LINQ</span>, and
+                            <span>Entity Framework Core (EF Core)</span> for
+                            efficient data
+                            handling and database operations. I design
+                            structured
+                            APIs, manage
+                            relational databases using <span>SQL Server</span>,
+                            and
+                            ensure
+                            optimized query performance.
+                        </p>
+
+                        <p>
+                            On the frontend, I build responsive and interactive
+                            user
+                            interfaces
+                            using <span>HTML</span>, <span>CSS</span>,
+                            <span>Bootstrap</span>,
+                            <span>Tailwind</span>, <span>JavaScript</span>, and
+                            <span>jQuery</span>. I ensure cross-browser
+                            compatibility and mobile
+                            responsiveness while maintaining a clean UI/UX
+                            experience. My focus
+                            is to connect powerful backend systems with dynamic
+                            and
+                            user-friendly frontend interfaces.
+                        </p>
+
+                        <p>
+                            As a continuous learner, I constantly improve my
+                            understanding of
+                            modern software development concepts including
+                            <span>RESTful Architecture</span>,
+                            <span>Authentication & Authorization</span>,
+                            <span>Middleware</span>, and clean code practices.
+                            My
+                            goal is to
+                            grow as a professional <span>Software
+                                Developer</span>
+                            and build
+                            impactful digital products that solve real-world
+                            problems
+                            efficiently.
                         </p>
                     </div>
-                </div>
-            </section>
-            <!-- Hero Section End -->
 
-            <!-- about section start -->
-            <section id="about">
-                <h1>About Me</h1>
-                <hr />
+                    <ul>
+                        <li>Full Stack .NET Development</li>
+                        <li>Responsive Frontend Design</li>
 
-                <div class="about-text">
-                    <p>
-                        Hi, I’m <span>Faishal Siddiqui</span>, a passionate
-                        <span>Full Stack .NET Developer</span> with strong
-                        expertise in
-                        <span>C#</span> and <span>ASP.NET Core</span>. I
-                        specialize in
-                        building scalable, secure, and high-performance web
-                        applications
-                        using modern development practices. I focus on writing
-                        clean,
-                        maintainable code and following solid architecture
-                        principles to
-                        deliver production-ready solutions.
-                    </p>
+                        <li>Authentication & Authorization</li>
+                        <li>Database Optimization</li>
+                        <li>Secure API Design</li>
+                        <li>Clean Architecture Principles</li>
+                    </ul>
+                </section>
+                <!-- about section end -->
 
-                    <p>
-                        On the backend, I work extensively with
-                        <span>ASP.NET Core Web API</span>, implementing secure
-                        authentication using <span>JWT (JSON Web Token)</span>
-                        and role-based authorization with
-                        <span>ASP.NET Identity</span>. I have hands-on
-                        experience with
-                        <span>Dependency Injection (DI)</span>,
-                        <span>LINQ</span>, and
-                        <span>Entity Framework Core (EF Core)</span> for
-                        efficient data
-                        handling and database operations. I design structured
-                        APIs, manage
-                        relational databases using <span>SQL Server</span>, and
-                        ensure
-                        optimized query performance.
-                    </p>
+                <!-- skills section start -->
+                <section id="skills" data-aos="fade-left">
 
-                    <p>
-                        On the frontend, I build responsive and interactive user
-                        interfaces
-                        using <span>HTML</span>, <span>CSS</span>,
-                        <span>Bootstrap</span>,
-                        <span>Tailwind</span>, <span>JavaScript</span>, and
-                        <span>jQuery</span>. I ensure cross-browser
-                        compatibility and mobile
-                        responsiveness while maintaining a clean UI/UX
-                        experience. My focus
-                        is to connect powerful backend systems with dynamic and
-                        user-friendly frontend interfaces.
-                    </p>
-
-                    <p>
-                        As a continuous learner, I constantly improve my
-                        understanding of
-                        modern software development concepts including
-                        <span>RESTful Architecture</span>,
-                        <span>Authentication & Authorization</span>,
-                        <span>Middleware</span>, and clean code practices. My
-                        goal is to
-                        grow as a professional <span>Software Developer</span>
-                        and build
-                        impactful digital products that solve real-world
-                        problems
-                        efficiently.
-                    </p>
-                </div>
-
-                <ul>
-                    <li>Full Stack .NET Development</li>
-                    <li>Responsive Frontend Design</li>
-
-                    <li>Authentication & Authorization</li>
-                    <li>Database Optimization</li>
-                    <li>Secure API Design</li>
-                    <li>Clean Architecture Principles</li>
-                </ul>
-            </section>
-            <!-- about section end -->
-
-            <!-- skills section start -->
-            <section id="skills">
-                <h1>My Skills</h1>
-                <hr />
-                <div class="skill-outer">
-                    <div class="skill-box">
-                        <img src="/Images/html.jpeg" alt="css" title="css" />
+                    <h1>My Skills</h1>
+                    <hr />
+                    <div class="skill-outer">
+                        <div class="skill-box">
+                            <img src="/Images/html.jpeg" alt="css"
+                                title="css" />
+                        </div>
+                        <div class="skill-box">
+                            <img src="/Images/css.jpeg" alt="bootstrap"
+                                title="bootstrap" />
+                        </div>
+                        <div class="skill-box">
+                            <img
+                                src="/Images/JAVA SCRIPT.jpeg"
+                                alt="javascript"
+                                title="javascript" />
+                        </div>
+                        <div class="skill-box">
+                            <img src="/Images/JQUERY.jpeg" alt="jquery"
+                                title="jquery" />
+                        </div>
+                        <div class="skill-box">
+                            <img src="/Images/angular.jpeg" alt="angular"
+                                title="angular" />
+                        </div>
+                        <div class="skill-box">
+                            <img src="/Images/csharp.jpeg" alt="csharp"
+                                title="csharp" />
+                        </div>
+                        <div class="skill-box">
+                            <img src="/Images/ASP .NET.jpeg" alt="ASP.Net"
+                                title="ASP.Net" />
+                        </div>
+                        <div class="skill-box">
+                            <img src="/Images/MS SQL.jpeg" alt="SQL"
+                                title="SQL" />
+                        </div>
+                        <div class="skill-box">
+                            <img src="/Images/git.jpeg" alt="git-github"
+                                title="git-github" />
+                        </div>
                     </div>
-                    <div class="skill-box">
-                        <img src="/Images/css.jpeg" alt="bootstrap"
-                            title="bootstrap" />
+                </section>
+                <!-- skills section end -->
+
+                <!-- services start -->
+                <section id="services" data-aos="fade-up" data-aos-delay="200">
+
+                    <h1>My Services</h1>
+                    <hr />
+                    <div class="service">
+                        <div class="Services-box" data-aos="flip-left"
+                            data-aos-delay="100">
+
+                            <h2>01</h2>
+                            <h2>Full Stack Web Development</h2>
+                            <p>
+                                I develop end-to-end web applications using C#,
+                                ASP.NET Core, Web
+                                API, and SQL Server. From designing scalable
+                                backend
+                                architecture
+                                to building responsive and interactive user
+                                interfaces with HTML,
+                                CSS, JavaScript, Bootstrap, and Angular, I
+                                ensure
+                                every
+                                application is secure, fast, and user-friendly.
+                            </p>
+                        </div>
+                        <div class="Services-box" data-aos="flip-left"
+                            data-aos-delay="300">
+
+                            <h2>02</h2>
+                            <h2>RESTful API Development</h2>
+                            <p>
+                                I design and develop secure REST APIs using
+                                ASP.NET
+                                Core and Web
+                                API. I implement JWT authentication, role-based
+                                authorization,
+                                validation, and structured error handling to
+                                ensure
+                                reliability
+                                and security. My APIs are optimized for
+                                performance
+                                and built to
+                                integrate seamlessly with frontend applications
+                                or
+                                third-party
+                                services.
+                            </p>
+                        </div>
+                        <div class="Services-box" data-aos="flip-left"
+                            data-aos-delay="500">
+
+                            <h2>03</h2>
+                            <h2>Database Design & Performance Optimization</h2>
+                            <p>
+                                I work extensively with Microsoft SQL Server for
+                                database design,
+                                query optimization, indexing, and performance
+                                tuning. I design
+                                normalized database schemas, write optimized
+                                stored
+                                procedures,
+                                and improve query execution performance.
+                            </p>
+                        </div>
                     </div>
-                    <div class="skill-box">
+                </section>
+                <!-- services end -->
+
+                <!-- project section start -->
+                <section id="project" data-aos="fade-up">
+
+                    <h1>Latest Project</h1>
+                    <hr />
+                    <div class="image">
                         <img
-                            src="/Images/JAVA SCRIPT.jpeg"
-                            alt="javascript"
-                            title="javascript" />
+                            src="/Images/1-project.jfif"
+                            alt="project-image"
+                            title="project-image" data-aos="zoom-in"
+                            data-aos-delay="200" />
+                        <img
+                            src="/Images/project-2.jfif"
+                            alt="project-image"
+                            title="project-image" data-aos="zoom-in"
+                            data-aos-delay="200" />
+                        <img
+                            src="/Images/project-3.jpeg"
+                            alt="project-image"
+                            title="project-image"
+                            data-aos="zoom-in" data-aos-delay="200">
                     </div>
-                    <div class="skill-box">
-                        <img src="/Images/JQUERY.jpeg" alt="jquery"
-                            title="jquery" />
-                    </div>
-                    <div class="skill-box">
-                        <img src="/Images/angular.jpeg" alt="angular"
-                            title="angular" />
-                    </div>
-                    <div class="skill-box">
-                        <img src="/Images/csharp.jpeg" alt="csharp"
-                            title="csharp" />
-                    </div>
-                    <div class="skill-box">
-                        <img src="/Images/ASP .NET.jpeg" alt="ASP.Net"
-                            title="ASP.Net" />
-                    </div>
-                    <div class="skill-box">
-                        <img src="/Images/MS SQL.jpeg" alt="SQL" title="SQL" />
-                    </div>
-                    <div class="skill-box">
-                        <img src="/Images/git.jpeg" alt="git-github"
-                            title="git-github" />
-                    </div>
-                </div>
-            </section>
-            <!-- skills section end -->
+                </section>
+                <!-- project section end -->
 
-            <!-- services start -->
-            <section id="services">
-                <h1>My Services</h1>
-                <hr />
-                <div class="service">
-                    <div class="Services-box">
-                        <h2>01</h2>
-                        <h2>Full Stack Web Development</h2>
-                        <p>
-                            I develop end-to-end web applications using C#,
-                            ASP.NET Core, Web
-                            API, and SQL Server. From designing scalable backend
-                            architecture
-                            to building responsive and interactive user
-                            interfaces with HTML,
-                            CSS, JavaScript, Bootstrap, and Angular, I ensure
-                            every
-                            application is secure, fast, and user-friendly.
-                        </p>
-                    </div>
-                    <div class="Services-box">
-                        <h2>02</h2>
-                        <h2>RESTful API Development</h2>
-                        <p>
-                            I design and develop secure REST APIs using ASP.NET
-                            Core and Web
-                            API. I implement JWT authentication, role-based
-                            authorization,
-                            validation, and structured error handling to ensure
-                            reliability
-                            and security. My APIs are optimized for performance
-                            and built to
-                            integrate seamlessly with frontend applications or
-                            third-party
-                            services.
-                        </p>
-                    </div>
-                    <div class="Services-box">
-                        <h2>03</h2>
-                        <h2>Database Design & Performance Optimization</h2>
-                        <p>
-                            I work extensively with Microsoft SQL Server for
-                            database design,
-                            query optimization, indexing, and performance
-                            tuning. I design
-                            normalized database schemas, write optimized stored
-                            procedures,
-                            and improve query execution performance.
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <!-- services end -->
+                <!-- contact me start -->
+                <section id="contact" data-aos="fade-up">
 
-            <!-- project section start -->
-            <section id="project">
-                <h1>Latest Project</h1>
-                <hr />
-                <div class="image">
-                    <img
-                        src="/Images/1-project.jfif"
-                        alt="project-image"
-                        title="project-image" />
-                    <img
-                        src="/Images/project-2.jfif"
-                        alt="project-image"
-                        title="project-image" />
-                    <img
-                        src="/Images/project-3.jpeg"
-                        alt="project-image"
-                        title="project-image" />
-                </div>
-            </section>
-            <!-- project section end -->
+                    <h1>Contact Me</h1>
+                    <hr />
+                    <div class="contact-container">
+                        <div class="talksme" data-aos="fade-right">
 
-            <!-- contact me start -->
-            <section id="contact">
-                <h1>Contact Me</h1>
-                <hr />
-                <div class="contact-container">
-                    <div class="talksme">
-                        <h2>Let’s Build the Future Together</h2>
-                        <p>
-                            I’m passionate about building secure, scalable, and
-                            high-performance web applications using the .NET
-                            ecosystem.
-                            Whether it’s developing robust backend APIs with
-                            ASP.NET Core,
-                            designing efficient database structures in SQL
-                            Server, or creating
-                            responsive frontend experiences, I focus on
-                            delivering clean,
-                            maintainable, and production-ready solutions.
-                        </p>
-
-                        <p>
-                            If you’re looking for a dedicated developer who
-                            values clean
-                            architecture, optimized performance, and long-term
-                            scalability,
-                            let’s connect. I’m always open to discussing new
-                            opportunities,
-                            innovative ideas, and challenging projects that make
-                            a real
-                            impact.
-                        </p>
-
-                        <div class="contact-icons">
+                            <h2>Let’s Build the Future Together</h2>
                             <p>
-                                <i
-                                    class="fa-solid fa-envelope"></i>faishal18.siddiqui@gmail.com
+                                I’m passionate about building secure, scalable,
+                                and
+                                high-performance web applications using the .NET
+                                ecosystem.
+                                Whether it’s developing robust backend APIs with
+                                ASP.NET Core,
+                                designing efficient database structures in SQL
+                                Server, or creating
+                                responsive frontend experiences, I focus on
+                                delivering clean,
+                                maintainable, and production-ready solutions.
                             </p>
-                            <p><i class="fa-solid fa-phone-volume"></i>+91
-                                7800628299</p>
+
                             <p>
-                                <i
-                                    class="fa-solid fa-location-dot"></i>Maharajganj,
-                                Uttar
-                                Pradesh
+                                If you’re looking for a dedicated developer who
+                                values clean
+                                architecture, optimized performance, and
+                                long-term
+                                scalability,
+                                let’s connect. I’m always open to discussing new
+                                opportunities,
+                                innovative ideas, and challenging projects that
+                                make
+                                a real
+                                impact.
                             </p>
+
+                            <div class="contact-icons">
+                                <a href="mailto:faisal18.siddiqui@gmail.com"
+                                    alt="_blank"><p>
+                                        <i class="fa-solid fa-envelope">
+                                        </i>
+                                        faisal18.siddiqui@gmail.com
+                                    </p></a>
+                                 <a href="tel:7800628299"
+                                    alt="_blank"><p>
+                                        <i class="fa-solid fa-phone">
+                                        </i>
+                                        7800628299
+                                    </p></a>
+                                    <i
+                                        class="fa-solid fa-location-dot"></i>Maharajganj,
+                                    Uttar
+                                    Pradesh
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="query-form">
-                        <form action>
-                            <div class="contact-form">
-                                <div>
+                        <div class="query-form" data-aos="fade-left">
+
+                            <form action>
+                                <div class="contact-form">
+                                    <div>
+                                        <div class="inp">
+                                            <label for="name">Your Name</label>
+                                            <input
+                                                type="text"
+                                                id="name"
+                                                placeholder="Enter Your Name" />
+                                        </div>
+                                    </div>
                                     <div class="inp">
-                                        <label for="name">Your Name</label>
+                                        <label for="name">Your Email</label>
                                         <input
-                                            type="text"
-                                            id="name"
-                                            placeholder="Enter Your Name" />
+                                            type="email"
+                                            id="email"
+                                            placeholder="Enter Your Email" />
+                                    </div>
+
+                                    <div class="message inp">
+                                        <label for="message">Message</label>
+                                        <textarea
+                                            id="message"
+                                            placeholder="Entery Your Message"></textarea>
                                     </div>
                                 </div>
-                                <div class="inp">
-                                    <label for="name">Your Email</label>
-                                    <input
-                                        type="email"
-                                        id="email"
-                                        placeholder="Enter Your Email" />
+                                <div class="btn">
+                                    <button>Send Message</button>
                                 </div>
-
-                                <div class="message inp">
-                                    <label for="message">Message</label>
-                                    <textarea
-                                        id="message"
-                                        placeholder="Entery Your Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="btn">
-                                <button>Send Message</button>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <!-- contact me end -->
+                </section>
+                <!-- contact me end -->
 
-            <!-- footer start -->
-            <footer id="foot">
-                <div class="footers">
-                    <p>Copyright © 2026 Faishal Siddiqui. All Rights
-                        Reserved.</p>
-                    <p>Designed by Faishal Siddiqui ❤️</p>
-                </div>
-            </footer>
-            <!-- footer end -->
-        </div>
+                <!-- footer start -->
+                <footer id="foot">
+                    <div class="footers">
+                        <p>Copyright © 2026 Faishal Siddiqui. All Rights
+                            Reserved.</p>
+                        <p>Designed by Faishal Siddiqui ❤️</p>
+                    </div>
+                </footer>
+                <!-- footer end -->
+            </div>
 
-        <!--Start of Tawk.to Script-->
-        <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = "https://embed.tawk.to/698c2df55b1c121c38d25cab/1jh5p73df";
-        s1.charset = "UTF-8";
-        s1.setAttribute("crossorigin", "*");
-        s0.parentNode.insertBefore(s1, s0);
-      })();
-    </script>
-        <!--End of Tawk.to Script-->
-        <!--End of Tawk.to Script-->
-
-        <!-- toggle star -->
-        <script>
+            <!--Start of Tawk.to Script-->
+            <!--Start of Tawk.to Script-->
+            <script>
+window.addEventListener("load", function () {
+  setTimeout(function(){
+    var s = document.createElement("script");
+    s.src="https://embed.tawk.to/698c2df55b1c121c38d25cab/1jh5p73df";
+    s.async=true;
+    document.body.appendChild(s);
+  }, 4000);
+});
+</script>
+            <!-- toggle star -->
+            <script>
       const toggle = document.querySelector(".menu-toggle");
       const navLinks = document.querySelector(".nav-links");
       const navbar = document.querySelector(".navbar");
@@ -442,6 +536,32 @@
         });
       });
     </script>
+        </script>
+
+        <!-- AOS JS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init({
+  duration: 1000,
+  once:false,
+  offset: 100,
+  easing: "ease-in-out"
+});
+</script>
+
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Faishal Siddiqui",
+  "url": "https://faishalsiddiqui.in",
+  "jobTitle": "Full Stack .NET Developer",
+  "sameAs": [
+    "https://github.com/faisalsiddiqui756",
+    "https://www.linkedin.com/in/faisalsiddiqui756/"
+  ]
+}
+</script>
         <!-- toggle end -->
     </body>
 </html>

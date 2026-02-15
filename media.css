@@ -102,6 +102,12 @@
         padding: 3vw;
     }
 
+    .Services-box:hover {
+        transform: translateX(-10px) !important;
+        border: 2px solid goldenrod !important;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2) !important;
+    }
+
     #project {
         margin-top: 40px;
     }
@@ -256,5 +262,26 @@
     .contact-form label {
         top: 12px;
         left: 70px;
+    }
+}
+
+
+
+@media(max-width: 500px) {
+    .profile-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .skill {
+        width: 45px;
+        height: 45px;
+        transform:
+            rotate(calc(60deg * var(--i))) translate(120px) rotate(calc(-60deg * var(--i)));
     }
 }
